@@ -1,0 +1,6 @@
+customtkinter
+SQLAlchemy
+pandas
+matplotlib
+reportlab
+Pillow
