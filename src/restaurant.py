@@ -131,6 +131,7 @@ class RestaurantApp(ctk.CTk):
                 self._update_stock_treeview()
                 self.entry_nombre.delete(0, END)
                 self.entry_cantidad.delete(0, END)
+                self._refresh_ingredients_combo()
             else:
                 self._show_msg("Error", msg)
                 
